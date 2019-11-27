@@ -30,6 +30,7 @@ RUN apt-get -q update \
         bridge-utils \
         cloud-init \
         curl \
+        gdb \
         locales \
         net-tools \
         openssh-server \
