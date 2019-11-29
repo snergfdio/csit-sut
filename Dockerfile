@@ -108,7 +108,7 @@ RUN pip install \
         pycrypto==2.6.1 \
         pypcap==1.2.3 \
         PyYAML==5.1.1 \
-        requests==2.22.0
+        requests==2.22.0 \
         robotframework==3.1.2 \
         scapy==2.4.3 \
         scp==0.13.2 \
