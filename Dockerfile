@@ -102,7 +102,7 @@ RUN mkdir -p /tmp/dumps \
  && mkdir -p /var/run/sshd
 
 # CSIT PIP pre-cache
-RUN pip install \
+RUN pip3 install \
         ecdsa==0.13.3 \
         paramiko==2.6.0 \
         pycrypto==2.6.1 \
@@ -156,7 +156,7 @@ RUN pip install \
         urllib3==1.25.6
 
 # ARM workaround
-RUN pip install scipy==1.1.0
+RUN pip3 install scipy==1.1.0
 
 # SSH settings
 RUN echo 'root:Csit1234' | chpasswd \
